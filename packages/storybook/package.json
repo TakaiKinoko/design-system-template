@@ -5,5 +5,8 @@
   "dependencies": {
     "@chefyolki-design-system/foundation": "workspace:^",
     "@chefyolki-design-system/react": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
   }
 }

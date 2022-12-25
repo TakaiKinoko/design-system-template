@@ -102,3 +102,19 @@ yarn workspace @chefyolki-design-system/storybook add @chefyolki-design-system/r
 
 yarn workspace @chefyolki-design-system/react add @chefyolki-design-system/foundation
 ```
+
+### step 4
+
+1. Set up ts for ONLY the development environment
+
+```
+yarn add -D typescript
+```
+
+2. Add typescript to packages
+
+```
+yarn workspace @chefyolki-design-system/react add -D typescript
+yarn workspace @chefyolki-design-system/foundation add -D typescript
+yarn workspace @chefyolki-design-system/storybook add -D typescript
+```

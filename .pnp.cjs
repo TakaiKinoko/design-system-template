@@ -43,6 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -51,7 +52,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:packages/foundation", {\
           "packageLocation": "./packages/foundation/",\
           "packageDependencies": [\
-            ["@chefyolki-design-system/foundation", "workspace:packages/foundation"]\
+            ["@chefyolki-design-system/foundation", "workspace:packages/foundation"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -61,7 +63,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./packages/react/",\
           "packageDependencies": [\
             ["@chefyolki-design-system/react", "workspace:packages/react"],\
-            ["@chefyolki-design-system/foundation", "workspace:packages/foundation"]\
+            ["@chefyolki-design-system/foundation", "workspace:packages/foundation"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -72,7 +75,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@chefyolki-design-system/storybook", "workspace:packages/storybook"],\
             ["@chefyolki-design-system/foundation", "workspace:packages/foundation"],\
-            ["@chefyolki-design-system/react", "workspace:packages/react"]\
+            ["@chefyolki-design-system/react", "workspace:packages/react"],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -81,9 +85,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["design-system-template", "workspace:."]\
+            ["design-system-template", "workspace:."],\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["typescript", [\
+        ["patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954", {\
+          "packageLocation": "./.yarn/cache/typescript-patch-7bc527fc0a-1caaea6cb7.zip/node_modules/typescript/",\
+          "packageDependencies": [\
+            ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]]\
     ]\

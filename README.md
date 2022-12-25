@@ -144,3 +144,21 @@ yarn workspace @chefyolki-design-system/foundation add -D style-dictionary
    yarn workspace @chefyolki-design-system/foundation run build-tokens
 
 ## Tailwind preset
+
+...
+
+## React setup
+
+```
+yarn workspace @chefyolki-design-system/react add -D react@^18.2.0 react-dom@^18.2.0 \
+@types/react@^18.0.0 @types/react-dom@^18.0.0
+```
+
+Then, for our consumers, as we will want to distribute our components with hooks, it's a good idea to have a minimum React version of 16.8. To do this, let's add React as a peer dependency by adding this section to our `package.json`
+
+```
+"peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+}
+```

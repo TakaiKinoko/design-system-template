@@ -142,3 +142,5 @@ yarn workspace @chefyolki-design-system/foundation add -D style-dictionary
 
 1. step 4
    yarn workspace @chefyolki-design-system/foundation run build-tokens
+
+## Tailwind preset

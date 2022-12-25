@@ -120,3 +120,21 @@ yarn workspace @chefyolki-design-system/storybook add -D typescript
 ```
 
 3. Add tsconfig.json to packages
+
+## Figma to CSS
+
+Figma --> design tokens --> CSS
+
+1. step 1
+
+```
+yarn workspace @chefyolki-design-system/foundation add -D style-dictionary
+```
+
+1. step 2
+   manually add design tokens under `/foundation/src/tokens/` in json formats.
+
+   Alternatively:  
+    https://github.com/mikaelvesavuori/figmagic
+
+1.

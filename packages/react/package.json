@@ -1,6 +1,9 @@
 {
   "name": "@chefyolki-design-system/react",
   "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "@chefyolki-design-system/foundation": "workspace:^"
   },

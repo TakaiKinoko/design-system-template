@@ -118,3 +118,5 @@ yarn workspace @chefyolki-design-system/react add -D typescript
 yarn workspace @chefyolki-design-system/foundation add -D typescript
 yarn workspace @chefyolki-design-system/storybook add -D typescript
 ```
+
+3. Add tsconfig.json to packages

@@ -162,3 +162,26 @@ Then, for our consumers, as we will want to distribute our components with hooks
     "react-dom": ">=16.8.0"
 }
 ```
+
+## Storybook
+
+### installation
+
+```
+cd packages/storybook
+npx storybook init
+```
+
+it will ask you if you want to manually choose a Storybook project type to install. Type `y` and choose react
+
+### start storybook
+
+```
+yarn storybook`
+```
+
+### accessibility addon
+
+```
+yarn workspace @chefyolki-design-system/storybook add -D @storybook/addon-a11y
+```

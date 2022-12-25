@@ -1,4 +1,10 @@
-import { colors as _colors, radius, spacings, animations, shadows } from './tokens/js/tokens';
+import {
+  colors as _colors,
+  radius,
+  spacings,
+  animations,
+  shadows,
+} from './tokens/js/tokens';
 
 /**
  * Tailwind requires the values:
@@ -31,13 +37,13 @@ const flattenValue = (obj) => {
 
 export const prefix = 'chefyolki-';
 export const theme = {
-    colors: flattenValue(_colors),
-    borderRadius: flattenValue(radius),
-    spacing: flattenValue(spacings),
-    animation: flattenValue(animations),
-    boxShadow: flattenValue(shadows),
-    fontFamily: {
-        sans: ['"Inter"']
-    }
+  colors: flattenValue(_colors),
+  borderRadius: flattenValue(radius),
+  spacing: flattenValue(spacings),
+  animation: flattenValue(animations),
+  boxShadow: flattenValue(shadows),
+  fontFamily: {
+    sans: ['"Inter"'],
+  },
 };
 export const plugins = [];

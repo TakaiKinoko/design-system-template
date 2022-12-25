@@ -185,3 +185,5 @@ yarn storybook`
 ```
 yarn workspace @chefyolki-design-system/storybook add -D @storybook/addon-a11y
 ```
+
+See under the canvas for each storybook component

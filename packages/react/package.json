@@ -1,4 +1,7 @@
 {
   "name": "@chefyolki-design-system/react",
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.3.1",
+  "dependencies": {
+    "@chefyolki-design-system/foundation": "workspace:^"
+  }
 }

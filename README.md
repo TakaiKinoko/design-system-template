@@ -52,6 +52,8 @@ This package will consume the foundation and react packages, and help the develo
 
 ## monorepo set up
 
+### step 1
+
 ```txt
 // in a workspa
 yarn init -w
@@ -67,4 +69,36 @@ cd react
 yarn init
 cd storybook
 yarn init -p // private
+```
+
+### step 2
+
+Append scope to the package.json files created for the three packages,
+e.g.
+
+```
+//FROM
+"name": "react"`
+```
+
+```
+// TO
+"name": "@chefyolki-design-system/react",
+```
+
+```
+% yarn workspaces list
+➤ YN0000: .
+➤ YN0000: packages/foundation
+➤ YN0000: packages/react
+➤ YN0000: packages/storybook
+➤ YN0000: Done in 0s 1ms
+```
+
+### step 3 - set up package dependencies
+
+```
+yarn workspace @chefyolki-design-system/storybook add @chefyolki-design-system/react  @chefyolki-design-system/foundation
+
+yarn workspace @chefyolki-design-system/react add @chefyolki-design-system/foundation
 ```

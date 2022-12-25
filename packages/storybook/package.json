@@ -1,5 +1,5 @@
 {
-  "name": "storybook",
+  "name": "@chefyolki-design-system/storybook",
   "packageManager": "yarn@3.3.1",
   "private": true
 }

@@ -1,0 +1,60 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 25 Dec 2022 04:31:22 GMT
+ */
+
+:root {
+  --animations-default: all 400ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
+  --colors-primary-100: #EBEFFF;
+  --colors-primary-200: #B9C4FF;
+  --colors-primary-300: #8FA0FF;
+  --colors-primary-400: #6E82FE;
+  --colors-primary-500: #556AEB;
+  --colors-primary-600: #1D2F99;
+  --colors-primary-700: #1D2F99;
+  --colors-primary-800: #0C1A66;
+  --colors-primary-900: #020A33;
+  --colors-neutral-100: #F8F9FA;
+  --colors-neutral-200: #E9ECEF;
+  --colors-neutral-300: #DEE2E6;
+  --colors-neutral-400: #CED4DA;
+  --colors-neutral-500: #ADB5BD;
+  --colors-neutral-600: #6C757D;
+  --colors-neutral-700: #495057;
+  --colors-neutral-800: #343A40;
+  --colors-neutral-900: #212529;
+  --colors-neutral-black: #000000;
+  --colors-neutral-white: #FFFFFF;
+  --colors-warning-100: #FFF8EB;
+  --colors-warning-200: #FFE3B0;
+  --colors-warning-300: #FFCC75;
+  --colors-warning-400: #FFB23B;
+  --colors-warning-500: #FF9500;
+  --colors-warning-600: #CC7C00;
+  --colors-warning-700: #996000;
+  --colors-warning-800: #664200;
+  --colors-warning-900: #332200;
+  --colors-danger-100: #FF9680;
+  --colors-danger-200: #FF8166;
+  --colors-danger-300: #FF6C4C;
+  --colors-danger-400: #FF4B24;
+  --colors-danger-500: #FF380D;
+  --colors-danger-600: #EB2A00;
+  --colors-danger-700: #CC2400;
+  --colors-danger-800: #B22000;
+  --colors-danger-900: #991B00;
+  --radius-small: 8px;
+  --radius-large: 20px;
+  --shadows-level-1: 0px 4px 6px rgba(33, 37, 41, 0.2);
+  --shadows-level-2: 0px 2px 10px rgba(33, 37, 41, 0.15);
+  --spacings-4: 4px;
+  --spacings-8: 8px;
+  --spacings-16: 16px;
+  --spacings-32: 32px;
+  --spacings-40: 40px;
+  --spacings-48: 48px;
+  --spacings-56: 56px;
+  --spacings-64: 64px;
+  --spacings-80: 80px;
+  --spacings-100: 100px;
+}

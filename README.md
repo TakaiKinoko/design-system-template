@@ -137,4 +137,8 @@ yarn workspace @chefyolki-design-system/foundation add -D style-dictionary
    Alternatively:  
     https://github.com/mikaelvesavuori/figmagic
 
-1.
+1. step 3
+   add style-dictionary config in `sd.config.js` and add script to build tokens
+
+1. step 4
+   yarn workspace @chefyolki-design-system/foundation run build-tokens
